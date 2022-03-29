@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  BCTeam
+//
+//  Created by beichen on 2022/3/28.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "BCMacro.h"
+#import "BCEnum.h"
+#import "BCTableView.h"
+#import "BCBaseViewController.h"
+#import "BCNavigationController.h"
+#import "BCUserModel.h"
+#import "BCNetwork.h"
+#import "BCTool.h"
+#import "BCTextField.h"
+#import "BCAlterViewController.h"
+
+/**
+ 分类
+ */
+#import "MBProgressHUD+Ex.h"
+#import "NSArray+safe.h"
+#import "NSDictionary+safe.h"
+#import "NSString+Ex.h"
+#import "NSString+safe.h"
+#import "UIButton+touchArea.h"
+#import "UIControl+BCAOP.h"
+#import "UIDevice+BCAdd.h"
+#import "UIImage+Ex.h"
+#import "UINavigationBar+BCAdd.h"
+#import "UIView+Ex.h"
+#import "UIView+JLAdd.h"
+#import "NSBundle+BCBundle.h"
+
+/**
+ 第三方库
+ */
+
+#import <SDWebImage/SDWebImage.h>
+#import <MJExtension/MJExtension.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import <Masonry/Masonry.h>
+#import <YYCategories/YYCategories.h>
+
+#endif /* PrefixHeader_pch */
